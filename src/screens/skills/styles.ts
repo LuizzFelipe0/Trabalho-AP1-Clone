@@ -75,11 +75,25 @@ export const styles = StyleSheet.create({
     margin: '5%',
 
   },
+  textWithLinkBlue: {
+    color: '#0095F6',
+    justifyContent: 'center',
+    alignItems: 'center',
+
+  },
   textWithLink: {
     color: '#FFF',
     justifyContent: 'center',
     alignItems: 'center',
     margin: '5%',
+  },
+  forgotPassword:{
+    color: '#0095F6',
+    fontFamily: 'Segoe UI',
+    marginLeft:'50.5%',
+    fontSize:'13.5px',
+    margin: '1.5%',
+
 
 
   }

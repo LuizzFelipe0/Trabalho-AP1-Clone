@@ -39,6 +39,8 @@ export const Skills = () => {
             </TouchableOpacity>
         </View>
 
+        <TouchableOpacity style={styles.forgotPassword}  onPress={() => Linking.openURL("https://www.instagram.com/accounts/password/reset/")}>Esqueceu a senha?</TouchableOpacity>
+
         <Button title="Entrar"/>
         
 
@@ -46,7 +48,7 @@ export const Skills = () => {
 
         <Text style={styles.textOu}>━━━━━━━━━━━ OU ━━━━━━━━━━</Text>
 
-        <Text style={styles.textWithLink}>Não tem uma Conta? <TouchableOpacity style={{ color: '#0095F6' }} onPress={() => Linking.openURL("https://www.instagram.com/accounts/emailsignup/")}>Cadastre-se</TouchableOpacity></Text>
+        <Text style={styles.textWithLink}>Não tem uma Conta? <TouchableOpacity style={styles.textWithLinkBlue} onPress={() => Linking.openURL("https://www.instagram.com/accounts/emailsignup/")}>Cadastre-se</TouchableOpacity></Text>
 
         <Text style={{ margin: '5%', color: '#707070', alignItems:'center'}}> Português (Brasil) © 2022 Luiztagram from Meta</Text>
 
