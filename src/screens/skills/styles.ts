@@ -34,14 +34,18 @@ export const styles = StyleSheet.create({
     padding: Platform.OS === 'ios' ? 15 : 10,
     borderRadius: 10,
     width: '80%',
-    height: 45
+    height: 45,
+    fontFamily: 'Segoe UI',
+
 
   },
   input2: {
     padding: Platform.OS === 'ios' ? 15 : 10,
     color: '#FFF',
     width: '90%',
-    textShadowColor: 'white'
+    textShadowColor: 'white',
+    fontFamily: 'Segoe UI',
+
 
   },
   icon: {
@@ -58,13 +62,16 @@ export const styles = StyleSheet.create({
     borderRadius: 10,
     margin: 15,
     alignItems: 'center',
-    height: 45
+    height: 45,
+
 
   },
   textOu: {
     color: '#FFF',
     padding: '5%',
     marginLeft: '10px 40px 18px',
+    fontFamily: 'Segoe UI',
+
 
 
   },
@@ -73,12 +80,16 @@ export const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     margin: '5%',
+    fontFamily: 'Segoe UI',
+
 
   },
   textWithLinkBlue: {
     color: '#0095F6',
     justifyContent: 'center',
     alignItems: 'center',
+    fontFamily: 'Segoe UI',
+
 
   },
   textWithLink: {
@@ -86,12 +97,14 @@ export const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     margin: '5%',
+    fontFamily: 'Segoe UI',
+
   },
-  forgotPassword:{
+  forgotPassword: {
     color: '#0095F6',
     fontFamily: 'Segoe UI',
-    marginLeft:'50.5%',
-    fontSize:'14px',
+    marginLeft: '50.5%',
+    fontSize: '14px',
     margin: '1.5%',
   }
 });
