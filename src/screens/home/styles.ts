@@ -1,4 +1,4 @@
-import { StyleSheet } from "react-native";
+import { Platform, StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
 
@@ -11,7 +11,39 @@ export const styles = StyleSheet.create({
   image: {
     width: 270,
     height: 47.5,
-    margin: 55,
+    margin: 35,
 
+  },
+  input: {
+    padding: Platform.OS === 'ios' ? 15 : 10,
+    color: '#FFF',
+    width: '90%',
+    fontFamily: 'Segoe UI',
+    backgroundColor: '#1f1e25',
+    borderRadius:10
+  },
+  searchIcon: {
+    width: '10%',
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: 30
+
+  },
+  inputArea: {
+    flexDirection: 'row',
+    width: '80%',
+    backgroundColor: '#1f1e25',
+    borderRadius: 10,
+    alignItems: 'center',
+    height: 45,
+    margin:35
+
+
+  },
+  container2: {
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+    padding: 50
   },
 })
