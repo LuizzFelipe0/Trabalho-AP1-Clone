@@ -17,13 +17,13 @@ export const Skills = () => {
 
         <Image style={styles.image} source={{ uri: "https://see.fontimg.com/api/renderfont4/YzBn4/eyJyIjoiZnMiLCJoIjo2OCwidyI6MTAwMCwiZnMiOjY4LCJmZ2MiOiIjRkZGRkZGIiwiYmdjIjoiIzM1M0Q0QiIsInQiOjF9/SW5zdGFncmFt/honeybee-personal-use-regular.png" }} />
 
-        <TextInput style={styles.input1} placeholder="Nome do Usuário ou Telefone"
+        <TextInput style={styles.input1} placeholder="Telefone, nome de usuário ou email"
             value={user} placeholderTextColor='#707070' />
 
         <View style={styles.inputArea}>
             <TextInput
                 style={styles.input2}
-                placeholder="Insira sua Senha"
+                placeholder="Senha"
                 value={password}
                 onChangeText={(password) => setPassword(password)}
                 secureTextEntry={hideP}
@@ -39,10 +39,10 @@ export const Skills = () => {
             </TouchableOpacity>
         </View>
 
-        <TouchableOpacity style={styles.forgotPassword}  onPress={() => Linking.openURL("https://www.instagram.com/accounts/password/reset/")}>Esqueceu a senha?</TouchableOpacity>
+        <TouchableOpacity style={styles.forgotPassword} onPress={() => Linking.openURL("https://www.instagram.com/accounts/password/reset/")}>Esqueceu a senha?</TouchableOpacity>
 
-        <Button title="Entrar"/>
-        
+        <Button title="Entrar" />
+
 
         <Text style={styles.textFacebook} onPress={() => Linking.openURL("https://pt-br.facebook.com/login/device-based/regular/login/")}><Image style={styles.FacebookIcon} source={{ uri: "https://img.icons8.com/color/344/facebook.png" }}></Image>  Entrar com o Facebook</Text>
 
@@ -50,7 +50,7 @@ export const Skills = () => {
 
         <Text style={styles.textWithLink}>Não tem uma Conta? <TouchableOpacity style={styles.textWithLinkBlue} onPress={() => Linking.openURL("https://www.instagram.com/accounts/emailsignup/")}>Cadastre-se</TouchableOpacity></Text>
 
-        <Text style={{ margin: '10%', color: '#707070', alignItems:'center'}}> Português (Brasil) © 2022 Luiztagram from Meta</Text>
+        <Text style={{ margin: '10%', color: '#707070', alignItems: 'center' }}> Português (Brasil) © 2022 Luiztagram from Meta</Text>
 
     </View>
 
