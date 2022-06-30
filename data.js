@@ -1,7 +1,7 @@
 const data = [
     {
         title: "Criação do Aplicativo",
-        body: "O Instagram foi criado por Kevin Systrom e Mike Krieger e lançado em outubro de 2010. O serviço rapidamente ganhou popularidade, com mais de 100 milhões de usuários ativos em abril de 2012.Sendo Distribuído através da Apple App Store, Google Play e Windows Phone Store.",
+        body: "O Instagram foi criado por Kevin Systrom e Mike Krieger e lançado no dia 6 de outubro de 2010 e, naquele dia, tornou-se o principal aplicativo de compartilhamento de fotos gratuito, acumulando 25.000 usuários. Com essa rápida popularidade o serviço teve mais de 100 milhões de usuários ativos em abril de 2012.Sendo Distribuído através da Apple App Store, Google Play e Windows Phone Store.",
         imgUrl: "https://neilpatel.com/wp-content/uploads/2019/06/mao-feminina-segurando-smartphone-no-aplicativo-in.jpeg",
     },
     {
@@ -29,13 +29,12 @@ const data = [
         body: "Sim, um dos criadores do Instagram é brasileiro! Mike Krieger é um dos fundadores da rede social criada em 2010. Ao lado de Kevin Systrom (o dono da primeira postagem), que conheceu no período da faculdade, Krieger passou por algumas empresas voltadas para a área da tecnologia, entre elas a Microsoft, onde atuou como programador antes de idealizar a plataforma.",
         imgUrl: "https://veja.abril.com.br/wp-content/uploads/2019/05/mike-krieger-brazil-at-silicon.jpg",
     },
-    
+
     {
         title: "Publicação Mais Curtida",
         body: "O perfil “Egg Gang” (@world_record_egg) quebrou o recorde de curtidas no Instagram com a foto de um ovo. A conta foi criada “apenas” para tirar o recorde da socialite Kylie Jenner, que mantinha o primeiro lugar do ranking desde fevereiro de 2018. Os usuários da rede social foram convocados para se unir ao projeto e, até o momento, um simples ovo já conseguiu mais de 55,8 milhões de curtidas – e contando.",
         imgUrl: "https://blog.emania.com.br/wp-content/uploads/2019/02/foto-mais-curtida-do-instagram-revela-objetivo-da-postagem-Blog-eMania-08-02.jpg",
     },
-    
 ];
 
 export default data;
