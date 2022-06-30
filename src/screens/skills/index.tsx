@@ -15,7 +15,7 @@ export const Skills = () => {
 
     return (<View style={styles.container}>
 
-        <Image style={styles.image} source={{ uri: "https://see.fontimg.com/api/renderfont4/2OG8e/eyJyIjoiZnMiLCJoIjo1NCwidyI6MTAwMCwiZnMiOjU0LCJmZ2MiOiIjRkZGRkZGIiwiYmdjIjoiIzAwMDAwMCIsInQiOjF9/THVpenRhZ3JhbQ/buttonidemo.png" }} />
+        <Image style={styles.image} source={{ uri: "https://see.fontimg.com/api/renderfont4/YzBn4/eyJyIjoiZnMiLCJoIjo2OCwidyI6MTAwMCwiZnMiOjY4LCJmZ2MiOiIjRkZGRkZGIiwiYmdjIjoiIzM1M0Q0QiIsInQiOjF9/SW5zdGFncmFt/honeybee-personal-use-regular.png" }} />
 
         <TextInput style={styles.input1} placeholder="Nome do Usuário ou Telefone"
             value={user} placeholderTextColor='#707070' />
@@ -50,7 +50,7 @@ export const Skills = () => {
 
         <Text style={styles.textWithLink}>Não tem uma Conta? <TouchableOpacity style={styles.textWithLinkBlue} onPress={() => Linking.openURL("https://www.instagram.com/accounts/emailsignup/")}>Cadastre-se</TouchableOpacity></Text>
 
-        <Text style={{ margin: '5%', color: '#707070', alignItems:'center'}}> Português (Brasil) © 2022 Luiztagram from Meta</Text>
+        <Text style={{ margin: '10%', color: '#707070', alignItems:'center'}}> Português (Brasil) © 2022 Luiztagram from Meta</Text>
 
     </View>
 

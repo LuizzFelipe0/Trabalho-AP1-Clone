@@ -16,9 +16,9 @@ export const styles = StyleSheet.create({
 
   },
   image: {
-    width: 195,
-    height: 60,
-    margin: 75,
+    width: 210,
+    height: 81,
+    margin: 55,
 
   },
   FacebookIcon: {
@@ -30,7 +30,7 @@ export const styles = StyleSheet.create({
   input1: {
     backgroundColor: '#1f1e25',
     color: '#FFF',
-    margin: 15,
+    margin: 10,
     padding: Platform.OS === 'ios' ? 15 : 10,
     borderRadius: 10,
     width: '80%',
@@ -91,10 +91,7 @@ export const styles = StyleSheet.create({
     color: '#0095F6',
     fontFamily: 'Segoe UI',
     marginLeft:'50.5%',
-    fontSize:'13.5px',
+    fontSize:'14px',
     margin: '1.5%',
-
-
-
   }
 });
