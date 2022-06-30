@@ -10,6 +10,11 @@ const data = [
         imgUrl: "https://mundoconectado.com.br/uploads/chamadas/smartphone-com-feed-do-instagram-aberto-imagem-usa-reiseblogger-pixabay.jpg",
     },
     {
+        title: "Primeira Postagem do Instagram",
+        body: "No dia 16 de julho de 2010,Kevin Systrom, um dos fundadores da rede social, publicou a foto do seu cãozinho, e na legenda dizia test.Provavelmente essa foi uma publicação apenas para testar se a plataforma já estava funcionando perfeitamente. ",
+        imgUrl: "http://s2.glbimg.com/rex-8oiPEATShgGHfWC2ablOYwA=/290x201/s2.glbimg.com/UIrSikQ_wGGS8OhUHqBPIKEgUZD0emCeZerLbRi0RaNIoz-HdGixxa_8qOZvMp3w/s.glbimg.com/jo/g1/f/original/2012/07/16/instkevin.jpg",
+    },
+    {
         title: "Instagram no Brasil",
         body: "O Instagram é bastante popular entre os brasileiros que têm acesso à internet. Desde 2015, a presença de brasileiros na plataforma é maior do que a média global - naquele ano, 55% dos usuários de internet estavam presentes na rede social de fotografias, mais do que a média global de 32%.",
         imgUrl: "https://img.women.com/images/images/000/147/237/large/brazil-water-city-073118.jpg",
@@ -24,6 +29,8 @@ const data = [
         body: "Sim, um dos criadores do Instagram é brasileiro! Mike Krieger é um dos fundadores da rede social criada em 2010. Ao lado de Kevin Systrom (o dono da primeira postagem), que conheceu no período da faculdade, Krieger passou por algumas empresas voltadas para a área da tecnologia, entre elas a Microsoft, onde atuou como programador antes de idealizar a plataforma.",
         imgUrl: "https://veja.abril.com.br/wp-content/uploads/2019/05/mike-krieger-brazil-at-silicon.jpg",
     },
+    
+    
 ];
 
 export default data;
