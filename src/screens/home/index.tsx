@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Image, TextInput, TouchableOpacity, SafeAreaView } from "react-native";
+import { View, Image, TextInput, TouchableOpacity, SafeAreaView,Text } from "react-native";
 import { styles } from "./styles";
 import { Ionicons } from '@expo/vector-icons';
 import CarouselCards from "../../../CarouselCards";
@@ -30,6 +30,7 @@ export const Home = () => {
       <CarouselCards />
     </SafeAreaView>
         
+    <Text style={{ margin: '15%', color: '#707070', alignItems:'center'}}>© 2022 Luiztagram from Meta</Text>
 
 
 

@@ -33,6 +33,9 @@ const CarouselCards = () => {
           marginHorizontal: -5,
           backgroundColor: '#000'
         }}
+        inactiveDotOpacity={0.4}
+        inactiveDotScale={0.6}
+        tappableDots={true}
 
       />
     </View>
